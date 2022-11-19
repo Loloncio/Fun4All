@@ -1,0 +1,314 @@
+p.center {
+    padding: 5px;
+    text-align: center;
+}
+
+p.rightp {
+    display:block;
+    margin-left:85px;
+    margin-top:-40px;
+}
+/*Coloca la imagen del usuario en la cabecera*/
+span.user{
+    margin-left:300px;
+    margin-right:10px;    
+    width: 180px;
+    border-radius: 5px;
+    align-items: center;
+}
+.boton{
+    height:80px;
+}
+/*Caracteristicas generales del cuerpo*/
+body.all{
+    width:1280px;
+    text-align: justify;
+    padding: 5px;
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
+/*Centrado de los elemento de un formulario*/
+#formulario{
+    margin: 0 auto;
+    margin-top: 10px;
+    text-align: center;
+    border: 2px solid grey;
+    padding: 5px;
+    border-radius: 5px;
+    margin-left: 256px;
+    margin-right: 256px;
+}
+/*Crea una caja que se coloca a la izquierda y deja un espacio a la derecha*/
+span.cajaI{
+    display: inline-block;
+    width: 500px;
+    margin-top:10px;
+    margin-left:128px;
+    border: 2px solid grey;
+    border-radius: 5px;
+    float: left;
+}
+/*Caja de la derecha*/
+span.cajaD{
+    display: inline-block;
+    margin-right: 128px;
+    width: 500px;
+    margin-top:10px;
+    border: 2px solid grey;
+    border-radius: 5px;
+    float: right;
+}
+/*Coloca un boton en la esquina inferior derecha de la caja*/
+input.info{
+    display: inline-block;
+    float: right;
+}
+/*Coloca el texto de la caja derecha*/
+p.cajaD{
+    float:right;
+    width: 160px;
+}
+p.cajaI{
+    float:left;
+    width:250px;
+
+}
+div.titulos{
+    margin-left:250px;
+    margin-right:280px;
+    align-items: center;
+}
+span.cajaIsb{
+    display: inline-block;
+    width: 35%;
+    margin-top:10px;
+    margin-left:10%;
+    border-radius: 5px;
+    float: left;
+}
+/*
+span.cajaDsb{
+display: inline-block;
+
+width: 35%;
+margin-top:10px;
+border-radius: 5px;
+float: right;
+}*/
+
+span.cajaBsb{
+    display: inline-block;
+    margin-right: 10%;
+    width: 70%;
+    margin-top:10px;
+    border-radius: 5px;
+    float: bottom;
+}
+
+span.cajaB{
+    display: inline-block;
+    margin-right: 10%;
+    width: 110%;
+    margin-top:10px;
+    border: 2px solid grey;
+    border-radius: 5px;
+    float: bottom;
+}
+
+span.cajaBr{
+    display: inline-block;
+    margin-right: 10%;
+    margin-left: 10%;
+    width: 100%;
+    margin-top:10px;
+    border: 2px solid grey;
+    border-radius: 5px;
+    float: bottom;
+}
+div.userEmpresario{
+    display: inline-block;
+    width: 300px;
+
+    margin-top:10px;
+    margin-left:20px;
+    border: 2px solid grey;
+    border-radius: 5px;
+    float: left;
+}
+div.salasSubidas{
+    margin-right: 20px;
+    width: 920px;
+
+    margin-top:10px;
+    border: 2px solid grey;
+    border-radius: 5px;
+    float: right;
+}
+#sala1{
+    width: 400px;
+    margin-top:10px;
+    margin-left:20px;
+    float: left;
+}
+
+
+#cajaIVE{
+    display: inline-block;
+    width: 400px;
+    margin-top:10px;
+    margin-left:20px;
+    border: 2px solid grey;
+    border-radius: 5px;
+    float: left;
+}
+#opinionCine1{
+    width: 400px;
+    height: 150px;
+    margin-top:420px;
+    margin-left:20px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    float: bottom;
+}
+#cajaDVE{
+    display: inline-block;
+    width: 400px;
+    margin-right: 20px;
+    margin-top:10px;
+    border: 2px solid grey;
+    border-radius: 5px;
+    float: right;
+}
+
+
+
+
+
+#info_sala{
+    border-radius: 0px 0px 0px 0px; 
+    -moz-border-radius: 0px 0px 0px 0px; 
+    -webkit-border-radius: 0px 0px 0px 0px; 
+    border: 1px solid #000000;
+}
+div.masInfo{
+    display: inline-block;
+    width: 900px;
+    margin-top:10px;
+
+}
+div.carac1{
+    display: inline-block;
+    margin-bottom:10px;
+    margin-left:5px;
+}
+div.carac2{
+    display: inline-block;
+    margin-left:5px;
+}
+div.reserva{
+    float:right;
+    display: table;
+    width: 360px;
+    margin-top:10px;
+    justify-content: center;
+    align-items: center;
+    vertical-align:middle;
+    text-align: center;
+
+}
+table.res{
+    margin:50px auto; 
+    border-collapse: collapse;
+    width:350px;
+    border: 1px solid black;
+}
+td.res {
+    text-align: center;
+    vertical-align: center;
+    border: 1px solid black;
+    padding: 2px;
+}
+th.res2 {
+    height: 40px;
+    text-align: center;
+    vertical-align: center;
+    border: 1px solid black;
+    border-collapse: collapse;
+    background: lightgrey;
+}
+th.res1 {
+    background: lightgrey;
+}
+input.res{
+    width: 200px;
+    height: 50px;    
+    background: radial-gradient(circle, #00f7ff 0%, #2d6efd 100%);
+}
+div.valoraciones{
+    display: inline-block;
+    width: 900px;
+    margin-top:10px;
+    padding: 5px;
+}
+div.val{
+    display: inline-block;
+    width: 800px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+p.estrellas{
+    display: flex;
+    float:right;
+    margin-top: -50px;
+    margin-right: 10px;
+    font-size: 20px;
+}
+div.cajaD{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 128px;
+    width: 500px;
+    margin-top:10px;
+    border: 2px solid grey;
+    border-radius: 5px;
+    float: right;
+}
+div.cajaI{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 35%;
+    margin-top:10px;
+    margin-left:10%;
+    float: left;
+}
+div.cajaInf{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    float: right;
+}
+button.info{
+  font-size: 15px;
+  line-height: 20px;
+  text-align: center;
+  width: 200px;
+  height: 30px;
+}
+div.row {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+div.column {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px;
+    margin-right: 50px;
+    
+}

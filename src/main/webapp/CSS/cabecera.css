@@ -1,0 +1,39 @@
+/*Fondo y alineamiento de la cabecera*/
+header.head{
+    width:1280px;
+    height: 90px;
+    background: linear-gradient(180deg, #33ccff 0%, #ccffff 100%);
+    border: 2px solid #0033cc;
+    padding: 5px;
+    display: flex;
+    border-radius: 5px;
+    align-items: center;  
+    line-height: 1;
+}
+/*Coloca la imagen a la  izquierda*/
+img.float {
+    float:left;
+    justify-content:left;
+}
+/*Centra el texto principal de la cabecera*/
+h1.center {
+    margin-left:365px;  
+    text-align: center;
+    justify-content: center;
+}
+/*Ajusta a la derecha el nombre del usuario o el texto de login*/
+p.right {
+    margin-left:365px;    
+}
+/*Para la cabecera de los empresarios*/
+header.headEmp{
+    width: 1280px;
+    height: 90px;
+    background: linear-gradient(180deg, #33ff33 0%, #99ff99 100%);
+    border: 2px solid #0033cc;
+    padding: 5px;
+    display: flex;
+    border-radius: 5px;
+    align-items: center;   
+    line-height: 1;
+}
